@@ -30,7 +30,7 @@ body {
      echo "</tr>";
      echo "</table><BR>";	
 	 echo"<td>成功加入購物車 !</td>";
-     echo'<a href="http://120.107.152.110/~a0418/HA/HA.html">回首頁</a><br>';
+     echo'<a href="index.html">回首頁</a><br>';
 	
 	mysqli_free_result($result);
     mysqli_close($link); 
