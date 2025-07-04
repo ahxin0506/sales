@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>無標題文件</title>
+<style type="text/css">
+:root{
+   font-family: '標楷體', sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border: none;
+   text-decoration: none;
+background-color: #FDFFE9;
+    text-align: center;
+    }
+    .button{font-family: "標楷體"}
+</style>
+</head>
+
+<body>
+<form id="form1" name="form1" method="post" action="testtransaction.php" align="center">
+  <p style="text-align: center; font-size: 40px; font-weight: bold;">交易付款
+    <label></label>
+  </p>
+  <p style="text-align: center">付款方式
+      <label>
+        <input name="radio" type="radio" id="radio2" value="1" />
+      </label>
+  信用卡  </p>
+  <p style="text-align: center">商品號碼
+    <label>
+        <input type="text" name="tno" id="tno" />
+      </label>
+  </p>
+  <p><span style="text-align: center">交易號碼
+        <label>
+          <input type="text" name="transmid" id="transmid" />
+        </label>
+    <span style="text-align: left">
+        <label> </label>
+  </span>
+    <label></label>
+  </span>
+    <span style="text-align: center">
+    <label></label>
+  </span><span style="text-align: right">  </span><span style="text-align: center">  </span>  </p>
+  <p>交易時間
+      <label>
+        <input type="datetime-local" name="transtime" id="transtime" />
+      </label>
+  </p>
+  <p>交易方式
+    <label><input type="text" name="method" id="method" />
+      </label>
+  </p>
+  <p>銀行代號
+      <label>
+        <input type="text" name="bankid" id="bankid" />
+      </label>
+  </p>
+  <p>銀行名稱
+      <label>
+        <input type="text" name="bankname" id="bankname" />
+      </label>
+  </p>
+  <p>信用卡種類
+      <label>
+        <select name="cardtype"; id="cardtype"><br />
+      <option value="option">請選擇</option><br />
+      <option value="master"><font face = "Times New Roman">MASTER</font></option><br />
+      <option value="visa">VISA</option><br />
+      </select>
+      </label>
+  </p>
+  <p>信用卡卡號
+      <label>
+        <input type="text" name="cardid" id="cardid" size="4"/>-<input type="text" name="cardid" id="cardid" size="4"/>-<input type="text" name="cardid" id="cardid" size="4"/>
+      </label>
+  </p>
+  <p>到期日
+      <label>
+        <input type="text" name="duedate" id="duedate" size="2"/>/<input type="text" name="duedate" id="duedate" size="4" />
+      </label>
+  </p>
+  <p>
+    <span style="text-align: center">
+    <label>
+      <input type="submit" name="button" id="button" value="送出" />
+    </label>
+    <label>
+      <input type="reset" name="button2" id="button2" value="重設" />
+    </label>
+  </span></p>
+</form>
+</body>
+</html>
