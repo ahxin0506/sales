@@ -23,6 +23,6 @@ body,td,th {
   商品:一級能效變頻冷暖分離式冷氣<br>
 型號:CS-K22FA2<br>
 價格:22500<br>
-<a href="http://120.107.152.110/~a0418/HA/newproduct.html">回首頁</a><br>
+<a href="newproduct.html">回首頁</a><br>
 </body>
 </html>
