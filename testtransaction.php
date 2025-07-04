@@ -41,13 +41,13 @@
    {
       echo '<center>';
       echo '交易成功</a><br>';
-      echo '<a href="http://120.107.152.110/~a0418/HA/HA.html">回首頁</a></p><br>';}
+      echo '<a href="index.html">回首頁</a></p><br>';}
    }
    ELSE
    {
       echo '<center>';
       echo '交易失敗</a><br>';
-      echo '<a href="http://120.107.152.110/~a0418/HA/testtransaction.html.html">重試</a></p><br>';
+      echo '<a href="testtransaction.html">重試</a></p><br>';
    } 
    mysqli_close($link);
 
