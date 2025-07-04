@@ -172,16 +172,16 @@ body{
 </head>
 
 <body>
-<a href="HA.html"><img src="toptop.png" alt="" width="100%" height="300"></a>
+<a href="index.html"><img src="toptop.png" alt="" width="100%" height="300"></a>
 <div align="center">
   <table width="100%" style="#000000 solid;" border="0" bgcolor="#64B5D2">
     <tr>
       <td width="5%" height="47" ><img src="new" width="50" height="43"/></td>
-      <td width="20%" height="47"><div align="center" class="style18"><a href="HA.html" style="text-decoration:none;"><font face="標楷體" color="#000000">最新商品</font><br></a></div></td>
+      <td width="20%" height="47"><div align="center" class="style18"><a href="index.html" style="text-decoration:none;"><font face="標楷體" color="#000000">最新商品</font><br></a></div></td>
       <td width="20%"><div align="center" class="style18"><a href="category1.html" style="text-decoration:none;" ><font face="標楷體" color="#000000">居家電器</font><br></a></div></td>
       <td width="20%"><div align="center" class="style18"><a href="category2.html" style="text-decoration:none;"><font face="標楷體" color="#000000">個人護理電器</font><br></a></div></td>
       <td width="20%"><div align="center" class="style18"><a href="category3.html" style="text-decoration:none;" ><font face="標楷體" color="#000000">空氣清潔電器</font><br></a></div></td>
-      <td width="15%" height="47" align="right"><a href="http://120.107.152.110/~a0418/HA/loginform.html" target="mainFrame"><img src="MemberImage" width="50" height="43" align="baseline" /></a><img src="cart" width="50" height="43" align="baseline" /><img src="search" width="50" height="43" /></td>
+      <td width="15%" height="47" align="right"><a href="loginform.html" target="mainFrame"><img src="MemberImage" width="50" height="43" align="baseline" /></a><img src="cart" width="50" height="43" align="baseline" /><img src="search" width="50" height="43" /></td>
     </tr>
   </table>
 </div>
@@ -206,16 +206,16 @@ body{
    {
    echo "<center>";  
    echo "登入成功!<br>";
-   echo '<a href="http://120.107.152.110/~a0418/HA/HA.html">回首頁</a><br>';
-   echo '<a href="http://120.107.152.110/~a0418/HA/report1.php">客群報表</a><br>';
-   echo '<a href="http://120.107.152.110/~a0418/HA/report2.php">銷售報表</a><br>';
-   echo '<a href="http://120.107.152.110/~a0418/HA/report3.php">庫存報表</a><br>';}
+   echo '<a href="index.html">回首頁</a><br>';
+   echo '<a href="report1.php">客群報表</a><br>';
+   echo '<a href="report2.php">銷售報表</a><br>';
+   echo '<a href="report3.php">庫存報表</a><br>';}
 	   
    else
    {
    echo "<center>";
    echo "帳密錯誤!<br>";
-   echo '<a href="http://120.107.152.110/~a0418/HA/maloginform.html">重新登入</a><br>';}
+   echo '<a href="maloginform.html">重新登入</a><br>';}
 
    mysqli_free_result($result);
    mysqli_close($link);
